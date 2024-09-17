@@ -1,12 +1,33 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeui.woff2') format('woff2'),
+         url('../fonts/segoeui.woff') format('woff'),
+         url('../fonts/segoeui.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/verdana.woff2') format('woff2'),
+         url('../fonts/verdana.woff') format('woff'),
+         url('../fonts/verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ddd;
     background-color: #1c1c1c;
-    margin: 50;
+    margin: 0;
     padding: 0;
 }
 header {
